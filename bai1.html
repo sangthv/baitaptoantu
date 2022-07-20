@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="ly" placeholder="mon ly">
+<input type="text" id="hoa" placeholder="mon hoa">
+<input type="text" id="sinh hoc" placeholder="mon sinh hoc">
+<button onclick="clic()">ket qua</button>
+<script>
+    function clic () {
+        let a = parseInt(document.getElementById("ly").value);
+        let b = parseInt(document.getElementById("hoa").value);
+        let c = parseInt(document.getElementById("sinh hoc").value);
+        let total = a + b + c;
+        let point = total / 3;
+        alert(total);
+        alert(point);
+    }
+</script>
+
+</body>
+</html>
